@@ -1,0 +1,26 @@
+version = 1
+
+[[analyzers]]
+name = "secrets"
+
+[[analyzers]]
+name = "sql"
+
+[[analyzers]]
+name = "test-coverage"
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "angularjs",
+    "vue"
+  ]
+  environment = [
+    "nodejs",
+    "browser",
+    "mongo",
+    "jquery"
+  ]
